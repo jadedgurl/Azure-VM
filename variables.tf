@@ -7,9 +7,7 @@ variable "location" {
   description = "The location/region where the virtual network is created. Changing this forces a new resource to be created."
 }
 
-variable "vnet_subnet_id" {
-  description = "The subnet id of the virtual network where the virtual machines will reside."
-}
+##variable "vnet_subnet_id" {description = "The subnet id of the virtual network where the virtual machines will reside."}
 
 variable "nsg_id" {
   description = "A Network Security Group ID to attach to the network interface"
